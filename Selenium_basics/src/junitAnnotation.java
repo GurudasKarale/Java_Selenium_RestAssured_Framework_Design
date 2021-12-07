@@ -18,7 +18,7 @@ public class junitAnnotation {
     @Before
     public void tc2() {
 
-        System.out.println("executed before each test cases ");
+        System.out.println("executed before each test case ");
     }
 
     @AfterClass
@@ -29,7 +29,7 @@ public class junitAnnotation {
     @After
     public void tc4() {
 
-        System.out.println("executed after each test cases");
+        System.out.println("executed after each test case");
     }
 
     @Test

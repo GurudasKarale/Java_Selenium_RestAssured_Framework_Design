@@ -7,7 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"classpath:features/LoginTest.feature"},glue={"com.utilities"},
-plugin = { "pretty","html:target/cucumbr/report.html" } ,tags="@tag2")
+plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},tags="@tag2")
+//plugin = { "pretty","html:target/cucumbr/report.html" },tags="@tag2")
 public class TestRunner {
 
 }

@@ -16,7 +16,7 @@ import com.Utility.PageObjects.LandingPage;
 public class BaseClass {
 
 	
-	WebDriver driver ;
+	public WebDriver driver ;
 	LandingPage landingPage;
 	
 	public WebDriver initializeDriver() {
@@ -40,9 +40,9 @@ public class BaseClass {
 		
 	}
 	
-	public String getScreenshot(String testCaseName,WebDriver driver) throws IOException {
+	public String getScreenshot(String testCaseName,WebDriver superDriver) throws IOException {
 		
-		TakesScreenshot takeScreenshot = (TakesScreenshot)driver;
+		TakesScreenshot takeScreenshot = (TakesScreenshot)superDriver;
 		File source = takeScreenshot.getScreenshotAs(OutputType.FILE);
 		File file = new File(System.getProperty("user.dir") + "//reports//" + testCaseName + ".png");
 		FileUtils.copyFile(source, file);

@@ -12,7 +12,7 @@ public class LandingPage extends WaitUtil {
 	WebDriver driver;
 	
 	public LandingPage(WebDriver driver) {
-		super(driver);                             //send driver to parent class waitutility
+		super(driver);                             
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		

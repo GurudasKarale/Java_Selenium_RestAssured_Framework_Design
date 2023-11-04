@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-14T20:31:39 IST" name="Default suite" finished-at="2023-10-14T20:31:43 IST" duration-ms="3998">
+    <groups>
+    </groups>
+    <test started-at="2023-10-14T20:31:39 IST" name="Default test" finished-at="2023-10-14T20:31:43 IST" duration-ms="3998">
+      <class name="com.Utility.DynamicJson">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:com.Utility.DynamicJson@bd4dc25]" started-at="2023-10-14T20:31:39 IST" name="addBook" data-provider="booksData" finished-at="2023-10-14T20:31:42 IST" duration-ms="3506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[oghthf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9636]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:com.Utility.DynamicJson@bd4dc25]" started-at="2023-10-14T20:31:42 IST" name="addBook" data-provider="booksData" finished-at="2023-10-14T20:31:43 IST" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tyre]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7468]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:com.Utility.DynamicJson@bd4dc25]" started-at="2023-10-14T20:31:43 IST" name="addBook" data-provider="booksData" finished-at="2023-10-14T20:31:43 IST" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kufc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- com.Utility.DynamicJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

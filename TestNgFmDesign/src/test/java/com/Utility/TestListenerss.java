@@ -36,15 +36,17 @@ public class TestListenerss extends BaseClass implements ITestListener {
 		
 		test.fail(result.getThrowable());
 		
+		//reason behind getting takescreenshot null was driver was not declared public
 		try {
 			driver = (WebDriver)result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
-			//System.out.println("------------->>>"+driver);
+			//filepath = getScreenshot(result.getMethod().getMethodName(),driver);
+			System.out.println("------------->>>"+driver);
 		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		String filepath = null;
 		
+		String filepath = null;
 		try {
 			 filepath = getScreenshot(result.getMethod().getMethodName(),driver);
 		} catch (IOException e) {
